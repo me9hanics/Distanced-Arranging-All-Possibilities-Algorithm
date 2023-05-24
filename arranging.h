@@ -1,2 +1,0 @@
-
-void Distancing(int n){};
