@@ -24,9 +24,11 @@ def AllArrangements(n):
     numbers =  list(range(1,n+1))
     Placing(arrangement, numbers)
 
-
-AllArrangements(3) # 2 solutions
-AllArrangements(4) # 2 solutions
+#There will only be solutions for numbers with a remainder of 0 or 3 when divided by 4.
+AllArrangements(1) # 0 solutions
+AllArrangements(2) # 0 solutions
+AllArrangements(3) # 2 solutions (one, and its mirror)
+AllArrangements(4) # 2 solutions (one, and its mirror)
 #AllArrangements(7) # Should be 52 solutions
 #AllArrangements(8) # Should be 300 solutions
 #AllArrangements(11) # A lot of solutions
