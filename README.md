@@ -13,4 +13,4 @@ You can modify the code in the end to try out other numbers. As said so, solutio
 ## Notes
 Of course this is not a fast algorithm, recursion takes a long time.
 
-However, since the number of ways to arrange these numbers is (2n)!/(2^n), I expect the number of feasible arrangements to be "factioral" too (even worse than exponential), therefore, even the fastest possible algorithm would take a long time just to find all solutions, since there are so many of them.
+However, since the number of ways to arrange these numbers is (2n)!/(2<sup>n</sup>), I expect the number of feasible arrangements to be "factioral" too (even worse than exponential), therefore, even the fastest possible algorithm would take a long time just to find all solutions, since there are so many of them.
